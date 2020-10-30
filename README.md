@@ -1,7 +1,7 @@
 # Code-Quiz-Challenge
 
 ## Summary
-This is a timed quiz application made up with a series of code-related questions, formatted in multiple choice allowing users to test their knowledge and/or skills with programming code questions. These questions will have users challenged not only by answering the questions correctly but as quicly as possible under 75 seconds. 
+This is a timed quiz application made up with a series of code-related questions, formatted in multiple choice allowing users to test their knowledge and/or skills with programming code questions. These questions will have users challenged not only by answering the questions correctly but as quickly as possible under 75 seconds. 
 
 ## Preview
 ![04-web-apis-homework-demo](https://user-images.githubusercontent.com/70370805/97690341-f4aade80-1a40-11eb-8012-1873b7e6db9f.gif)
