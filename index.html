@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Code Quiz Challenge</title>
+
+</head>
+<body>
+    
+    <!-- Top fixed header (highscores and timer) -->
+    <div class = "header row" id="header">
+        <div class="highscore col">
+            <a href="" id="view-highscore">View Highscores</a>
+        </div>
+
+        <div class="col text-right" id="time-header">
+            <p>Time Remaining: <span id = "timer">75</span></p>
+        </div>
+    </div>
+       
+    <!-- Coding Challenge Title -->
+       <div class="card text-center col-12 col-sm-10 col-md-9 col-lg-6" id = "intro-card">
+        <div>
+            <h1 class="card-title">Coding Quiz Challenge</h1>
+            <p class="card-text">Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
+            <button class="btn btn-primary" id = "start-btn">Start Quiz</button>
+        </div>
+        </div>
+
+        <!-- finished card -->
+    <div class="card display-none" id="finished-card" style="width: 29rem;">
+        <div class="card-body">
+            <h3 class="card-title">All Done!</h3>
+            <p class="card-text">You final score is <span id="final-score"></span>.</p>
+            <form class="row">
+                <div class="col">
+                    <label>Enter initials:</label>
+                </div>
+                <div class="col">
+                    <input type="text" id="initials-input">
+                </div>
+                <div class="col">
+                    <button class="btn btn-primary" id = "submit-high-score">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+        <!-- High Score section -->
+        <div class="card display-none" id="highscores-card" style="width: 29rem;">
+            <div class="card-body">
+                <h2 class="card-title" id= "highscores-title">Highscores</h2>
+                <ol id="highscore-list"></ol>
+                <button class="btn" id="go-back-btn">Go Back</button>
+                <button class="btn" id="clear-scores-btn">Clear High Scores</button>
+            </div>
+        </div>
+
+       <script src = "script.js"></script>
+
+</body>
+</html>
